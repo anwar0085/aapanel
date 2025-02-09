@@ -12,6 +12,7 @@ The experimental Centos/Ubuntu/Debian/Fedora installation command supports ipv6.
 curl -sSO http://www.aapanel.com/script/new_install_en.sh && bash new_install_en.sh forum
 
 Ubuntu/Deepin :
+
 wget -O install.sh http://www.aapanel.com/script/install-ubuntu_6.0_en.sh && bash install.sh forum
 
 Debian :
