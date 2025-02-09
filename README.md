@@ -1,5 +1,22 @@
-To install aaPanel web hosting control panel on CentOS 7 or Ubuntu, follow these steps:
+Ubuntu 22.04LTS is recommended
+Ensure that it is a clean operating system, there is no other environment with Apache/Nginx/php/MySQL installed (the existing environment can not be installed)
+Linux Panel Installation Command
 
+aaPanel is developed based on Centos, we recommend using Centos to install it
+
+Centos :
+yum install -y wget && wget -O install.sh http://www.aapanel.com/script/install_6.0_en.sh && bash install.sh forum
+
+The experimental Centos/Ubuntu/Debian/Fedora installation command supports ipv6. Note that this command is executed with root privileges (Centos8 is supported)
+
+curl -sSO http://www.aapanel.com/script/new_install_en.sh && bash new_install_en.sh forum
+
+Ubuntu/Deepin :
+wget -O install.sh http://www.aapanel.com/script/install-ubuntu_6.0_en.sh && bash install.sh forum
+
+Debian :
+wget -O install.sh http://www.aapanel.com/script/install-ubuntu_6.0_en.sh && bash install.sh forum
+==========================================================================================================
 1. First, make sure that you have a clean installation of CentOS 7 or Ubuntu.
 2. Update the system by running the following command:
 ______________________________________________________________
@@ -20,5 +37,3 @@ ________________________________________________________________________________
 -------------------------------------------------------------------
 cmd: bash install.sh aapanel
 ------------------------------------------------------------------------------------------------------
-6. Follow the prompts to complete the installation process. You will be asked to provide a password for the aaPanel control panel and to select the components that you want to install.
-7. After the installation is complete, you can access the aaPanel control panel by going to http://your-server-ip:8888 in your web browser. Replace “your-server-ip” with the IP address of your server.
